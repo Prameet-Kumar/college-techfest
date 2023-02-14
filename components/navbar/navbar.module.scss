@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: $accent-color;
+}
+
+.logo {
+  flex-grow: 10;
+  color: inherit;
+  font-size: inherit;
+}
+
+.items {
+  color: inherit;
+  font-size: inherit;
+
+  :hover {
+    text-decoration: underline;
+    text-decoration-color: $signature-color;
+  }
+}
+
+.button {
+  background-color: $signature-color;
+  color: $base-color;
+  border-radius: 50rem;
+  width: fit-content;
+  padding: 1rem;
+  margin: auto;
+
+  :hover {
+    background-color: $accent-color;
+  }
+}

@@ -1,0 +1,25 @@
+$base-color: #F1ECE1;
+$text-color: #333333;
+$accent-color: #C70000;
+$signature-color: #DAA520;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $base-color;
+  color: $text-color;
+}
+
+.accent {
+  color: $accent-color;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
